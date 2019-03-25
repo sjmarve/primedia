@@ -1,13 +1,11 @@
-##Primedia
+## Primedia
 
-###instructions for setup
+### instructions for setup
 This is a laravel project ([laravel.com](laravel.com)).   
 To run it, it requires `php` and `mysql` or any relational db like postgres, mssql etc.
 
 After cloning the project, fill in the `.env` file with the necessary database details and run the following command.   
->```
-php artisan migrate --seed
-```
+`php artisan migrate --seed`
 
 Everything is ready at this point.
 
@@ -17,7 +15,7 @@ one with the least setup is running `php artisan serve`.
 
 From there postman/any browser can be used to test the API endpoint available.
 
-####endpoint details
+#### endpoint details
  endpoint requires a `date` in the format `Y-m-d`.  
 and a `station` (options `[kfm, capetalk, 702, 947]`).  
 
